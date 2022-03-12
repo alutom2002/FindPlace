@@ -1,0 +1,904 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta viewport="width=device-width, initial-scale=1">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <title>Find home</title>
+    <link rel="icon" href="./assets/img/logo 3.png">
+    <!-- Base -->
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500&display=swap" rel="stylesheet">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div class="navbar">
+                <div class="row">
+                    <div class="col c-4 l-4 m-2 xs-3">
+                        <div class="navbar__logo">
+                            <a href="#">
+                                <img src="./assets/img/logo 2.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col c-8 l-8 m-0 xs-0">
+                        <ul class="navbar__list">
+                            <li>
+                                <a href="#">Tìm mua</a>
+                            </li>
+                            <li>
+                                <a href="#">Tìm thuê</a>
+                            </li>
+                            <li>
+                                <a href="#">Hỏi đáp</a>
+                            </li>
+                            <li>
+                                <a href="#">Đăng tin</a>
+                            </li>
+                            <li>
+                                <a href="#" id="login">Đăng nhập</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col c-0 l-0 m-10 xs-9">
+                        <div class="search">
+                            <input type="search" placeholder="Tìm kiếm theo tên">
+                            <i class="fa fa-search"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="main">
+        <div class="container">
+            <div class="search-bar">
+                <div class="row">
+                    <div class="col c-3 l-3 m-0 xs-0">
+                        <div class="search">
+                            <input type="search" placeholder="Tìm kiếm theo tên">
+                            <i class="fa fa-search"></i>
+                        </div>
+                    </div>
+                    <div class="col c-2 l-2 m-11 xs-11">
+                        <button type="button" class="btn">
+                            <div class="search-dropdown">
+                                <div class="dropdown-btn">
+                                    <i class="fa fa-map-marker"></i>
+                                    <div class="search-default">
+                                        Địa chỉ
+                                    </div>
+                                    <i class="fa fa-angle-down"></i>
+                                </div>
+                                <ul>
+                                    <li class="list-1 selected">Toàn TPHCM
+                                        <i class="fa fa-check-circle-o"></i>
+                                    </li>
+                                    <li class="list-1">Quận 1
+                                        <i class="fa fa-check-circle-o"></i>
+                                    </li>
+                                    <li class="list-1">Quận 2
+                                        <i class="fa fa-check-circle-o"></i>
+                                    </li>
+                                    <li class="list-1">Quận 3
+                                        <i class="fa fa-check-circle-o"></i>
+                                    </li>
+                                    <li class="list-1">Quận 4
+                                        <i class="fa fa-check-circle-o"></i>
+                                    </li>
+                                    <li class="list-1">Quận 5
+                                        <i class="fa fa-check-circle-o"></i>
+                                    </li>
+                                    <li class="list-1">Quận 6
+                                        <i class="fa fa-check-circle-o"></i>
+                                    </li>
+                                    <li class="list-1">Quận 7
+                                        <i class="fa fa-check-circle-o"></i>
+                                    </li>
+                                    <li class="list-1">Quận 8
+                                        <i class="fa fa-check-circle-o"></i>
+                                    </li>
+                                    <li class="list-1">Quận 9
+                                        <i class="fa fa-check-circle-o"></i>
+                                    </li>
+                                    <li class="list-1">Quận 10
+                                        <i class="fa fa-check-circle-o"></i>
+                                    </li>
+                                    <li class="list-1">Quận 11
+                                        <i class="fa fa-check-circle-o"></i>
+                                    </li>
+                                    <li class="list-1">Quận 12
+                                        <i class="fa fa-check-circle-o"></i>
+                                    </li>
+                                    <li class="list-1">Quận Bình Tân
+                                        <i class="fa fa-check-circle-o"></i>
+                                    </li>
+                                    <li class="list-1">Quận Bình Thạnh
+                                        <i class="fa fa-check-circle-o"></i>
+                                    </li>
+                                    <li class="list-1">Quận Gò Vấp
+                                        <i class="fa fa-check-circle-o"></i>
+                                    </li>
+                                    <li class="list-1">Quận Phú Nhuận
+                                        <i class="fa fa-check-circle-o"></i>
+                                    </li>
+                                    <li class="list-1">Quận Tân Bình
+                                        <i class="fa fa-check-circle-o"></i>
+                                    </li>
+                                    <li class="list-1">Quận Tân Phú
+                                        <i class="fa fa-check-circle-o"></i>
+                                    </li>
+                                    <li class="list-1">Quận Thủ Đức
+                                        <i class="fa fa-check-circle-o"></i>
+                                    </li>
+                                </ul>
+                            </div>
+                        </button>
+                    </div>
+                    <div class="col c-2 l-2 m-0 xs-0">
+                        <button type="button" class="btn">
+                            <div class="search-dropdown">
+                                <div class="dropdown-btn">
+                                    <i class="fa fa-home"></i>
+                                    <div class="search-default">
+                                        Danh mục
+                                    </div>
+                                    <i class="fa fa-angle-down"></i>
+                                </div>
+                                <ul>
+                                    <li class="list-2 selected">Tất cả
+                                        <i class="fa fa-check-circle-o"></i>
+                                    </li>
+                                    <li class="list-2">Nhà
+                                        <i class="fa fa-check-circle-o"></i>
+                                    </li>
+                                    <li class="list-2">Căn hộ
+                                        <i class="fa fa-check-circle-o"></i>
+                                    </li>
+                                    <li class="list-2">Phòng trọ
+                                        <i class="fa fa-check-circle-o"></i>
+                                    </li>
+                                    <li class="list-2">Văn phòng
+                                        <i class="fa fa-check-circle-o"></i>
+                                    </li>
+                                    <li class="list-2">Mặt bằng
+                                        <i class="fa fa-check-circle-o"></i>
+                                    </li>
+                                    <li class="list-2">Nhà xưởng
+                                        <i class="fa fa-check-circle-o"></i>
+                                    </li>
+                                    <li class="list-2">Đất
+                                        <i class="fa fa-check-circle-o"></i>
+                                    </li>
+                                </ul>
+                            </div>
+                        </button>
+                    </div>
+                    <div class="col c-2 l-2 m-0 xs-0">
+                        <button type="button" class="btn">
+                            <div class="search-dropdown">
+                                <div class="dropdown-btn">
+                                    <i class="fa fa-area-chart"></i>
+                                    <div class="search-default">
+                                        Diện tích
+                                    </div>
+                                    <i class="fa fa-angle-down"></i>
+                                </div>
+                                <ul>
+                                    <li class="list-3 selected">Tất cả
+                                        <i class="fa fa-check-circle-o"></i>
+                                    </li>
+                                    <li class="list-3">Dưới 20m²
+                                        <i class="fa fa-check-circle-o"></i>
+                                    </li>
+                                    <li class="list-3">Từ 20m² - 30m²
+                                        <i class="fa fa-check-circle-o"></i>
+                                    </li>
+                                    <li class="list-3">Từ 30m² - 50m²
+                                        <i class="fa fa-check-circle-o"></i>
+                                    </li>
+                                    <li class="list-3">Từ 50m² - 70m²
+                                        <i class="fa fa-check-circle-o"></i>
+                                    </li>
+                                    <li class="list-3">Từ 70m² - 90m²
+                                        <i class="fa fa-check-circle-o"></i>
+                                    </li>
+                                    <li class="list-3">Trên 90m²
+                                        <i class="fa fa-check-circle-o"></i>
+                                    </li>
+                                </ul>
+                            </div>
+                        </button>
+                    </div>
+                    <div class="col c-2 l-2 m-0 xs-0">
+                        <button type="button" class="btn">
+                            <div class="search-dropdown">
+                                <div class="dropdown-btn">
+                                    <i class="fa fa-usd"></i>
+                                    <div class="search-default">
+                                        Giá thuê
+                                    </div>
+                                    <i class="fa fa-angle-down"></i>
+                                </div>
+                                <ul>
+                                    <li class="list-4 selected">Tất cả
+                                        <i class="fa fa-check-circle-o"></i>
+                                    </li>
+                                    <li class="list-4">Dưới 1 triệu đồng
+                                        <i class="fa fa-check-circle-o"></i>
+                                    </li>
+                                    <li class="list-4">Từ 1 - 2 triệu đồng
+                                        <i class="fa fa-check-circle-o"></i>
+                                    </li>
+                                    <li class="list-4">Từ 2 - 3 triệu đồng
+                                        <i class="fa fa-check-circle-o"></i>
+                                    </li>
+                                    <li class="list-4">Từ 3 - 5 triệu đồng
+                                        <i class="fa fa-check-circle-o"></i>
+                                    </li>
+                                    <li class="list-4">Từ 5 - 7 triệu đồng
+                                        <i class="fa fa-check-circle-o"></i>
+                                    </li>
+                                    <li class="list-4">Từ 7 - 10 triệu đồng
+                                        <i class="fa fa-check-circle-o"></i>
+                                    </li>
+                                    <li class="list-4">Từ 10 - 15 triệu đồng
+                                        <i class="fa fa-check-circle-o"></i>
+                                    </li>
+                                    <li class="list-4">Trên 15 triệu đồng
+                                        <i class="fa fa-check-circle-o"></i>
+                                    </li>
+                                </ul>
+                            </div>
+                        </button>
+                    </div>
+                    <div class="col c-1 l-1 m-1 xs-1">
+                        <div class="search-btn">
+                            <button type="button" class="btn">
+                                <i class="fa fa-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content-wrapper">
+                <div class="row">
+                    <div class="col c-8 l-8 m-12 xs-12">
+                        <div class="property-title">
+                            Thuê nhà đất giá rẻ tại việt nam, giá thuê mới nhất tháng 2/2022
+                        </div>
+                        <div class="property-result">
+                            <span>
+                                1 - 6
+                            </span> trong
+                            <span>
+                                124.321
+                            </span> kết quả
+                        </div>
+                        <ul class="property-list">
+                            <li class="property-item">
+                                <a href="#">
+                                    <div class="row">
+                                        <div class="col c-4">
+                                            <div class="prop-img">
+                                                <img src="./assets/img/item1.jpg" alt="">
+                                                <div class="total">
+                                                    <i class="fa fa-camera">
+                                                    </i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col c-8">
+                                            <div class="prop-info">
+                                                <div class="prop-title">Căn hộ mini full nội thất balcon Trần Não -Thảo Điền, cầu SG 5p đi Bth
+                                                </div>
+                                                <div class="prop-addr">
+                                                    Quận 2, TPHCM
+                                                </div>
+                                                <ul class="prop-attr">
+                                                    <li>32 m²</li>
+                                                    <li>1 PN</li>
+                                                    <li>1 WC</li>
+                                                </ul>
+                                                <div class="prop-price">
+                                                    5 triệu 500 nghìn dồng
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="property-item">
+                                <a href="#">
+                                    <div class="row">
+                                        <div class="col c-4">
+                                            <div class="prop-img">
+                                                <img src="./assets/img/item1.jpg" alt="">
+                                                <div class="total">
+                                                    <i class="fa fa-camera">
+                                                    </i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col c-8">
+                                            <div class="prop-info">
+                                                <div class="prop-title">Căn hộ mini full nội thất balcon Trần Não -Thảo Điền, cầu SG 5p đi Bth
+                                                </div>
+                                                <div class="prop-addr">
+                                                    Quận 2, TPHCM
+                                                </div>
+                                                <ul class="prop-attr">
+                                                    <li>32 m²</li>
+                                                    <li>1 PN</li>
+                                                    <li>1 WC</li>
+                                                </ul>
+                                                <div class="prop-price">
+                                                    5 triệu 500 nghìn dồng
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="property-item">
+                                <a href="#">
+                                    <div class="row">
+                                        <div class="col c-4">
+                                            <div class="prop-img">
+                                                <img src="./assets/img/item1.jpg" alt="">
+                                                <div class="total">
+                                                    <i class="fa fa-camera">
+                                                    </i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col c-8">
+                                            <div class="prop-info">
+                                                <div class="prop-title">Căn hộ mini full nội thất balcon Trần Não -Thảo Điền, cầu SG 5p đi Bth
+                                                </div>
+                                                <div class="prop-addr">
+                                                    Quận 2, TPHCM
+                                                </div>
+                                                <ul class="prop-attr">
+                                                    <li>32 m²</li>
+                                                    <li>1 PN</li>
+                                                    <li>1 WC</li>
+                                                </ul>
+                                                <div class="prop-price">
+                                                    5 triệu 500 nghìn dồng
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="property-item">
+                                <a href="#">
+                                    <div class="row">
+                                        <div class="col c-4">
+                                            <div class="prop-img">
+                                                <img src="./assets/img/item1.jpg" alt="">
+                                                <div class="total">
+                                                    <i class="fa fa-camera">
+                                                    </i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col c-8">
+                                            <div class="prop-info">
+                                                <div class="prop-title">Căn hộ mini full nội thất balcon Trần Não -Thảo Điền, cầu SG 5p đi Bth
+                                                </div>
+                                                <div class="prop-addr">
+                                                    Quận 2, TPHCM
+                                                </div>
+                                                <ul class="prop-attr">
+                                                    <li>32 m²</li>
+                                                    <li>1 PN</li>
+                                                    <li>1 WC</li>
+                                                </ul>
+                                                <div class="prop-price">
+                                                    5 triệu 500 nghìn dồng
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="property-item">
+                                <a href="#">
+                                    <div class="row">
+                                        <div class="col c-4">
+                                            <div class="prop-img">
+                                                <img src="./assets/img/item1.jpg" alt="">
+                                                <div class="total">
+                                                    <i class="fa fa-camera">
+                                                    </i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col c-8">
+                                            <div class="prop-info">
+                                                <div class="prop-title">Căn hộ mini full nội thất balcon Trần Não -Thảo Điền, cầu SG 5p đi Bth
+                                                </div>
+                                                <div class="prop-addr">
+                                                    Quận 2, TPHCM
+                                                </div>
+                                                <ul class="prop-attr">
+                                                    <li>32 m²</li>
+                                                    <li>1 PN</li>
+                                                    <li>1 WC</li>
+                                                </ul>
+                                                <div class="prop-price">
+                                                    5 triệu 500 nghìn dồng
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="property-item">
+                                <a href="#">
+                                    <div class="row">
+                                        <div class="col c-4">
+                                            <div class="prop-img">
+                                                <img src="./assets/img/item1.jpg" alt="">
+                                                <div class="total">
+                                                    <i class="fa fa-camera">
+                                                    </i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col c-8">
+                                            <div class="prop-info">
+                                                <div class="prop-title">Căn hộ mini full nội thất balcon Trần Não -Thảo Điền, cầu SG 5p đi Bth
+                                                </div>
+                                                <div class="prop-addr">
+                                                    Quận 2, TPHCM
+                                                </div>
+                                                <ul class="prop-attr">
+                                                    <li>32 m²</li>
+                                                    <li>1 PN</li>
+                                                    <li>1 WC</li>
+                                                </ul>
+                                                <div class="prop-price">
+                                                    5 triệu 500 nghìn dồng
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="paging">
+                            <ul class="pagination">
+                                <li ">
+                                    <a href=" # ">
+                                        <i class=" fa fa-angle-left "></i>
+                                    </a>
+                                </li>
+                                <li class=" active ">
+                                    <a href=" # ">
+                                        1
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href=" # ">
+                                        2
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href=" # ">
+                                        3
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href=" # ">
+                                        4
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href=" # ">
+                                        5
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href=" # ">
+                                        6
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href=" # ">
+                                        7
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href=" # ">
+                                        8
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href=" # ">
+                                        <i class=" fa fa-angle-right "></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col c-4 l-4 m-0 xs-0 ">
+                        <div class=" side-bar ">
+                            <div class=" widget ">
+                                <div class=" widget-title ">
+                                    Loại bất động sản
+                                </div>
+                                <ul class=" widget-list ">
+                                    <li class=" widget-item ">
+                                        <a href=" # ">
+                                            <span class=" fa-stack fa-lg ">
+                                                <i class=" fa fa-circle-thin fa-stack-2x "></i>
+                                                <i class=" fa fa-angle-right fa-stack-1x "></i>
+                                            </span> Nhà
+                                            <div class=" counter ">(12.313)</div>
+                                        </a>
+                                    </li>
+                                    <li class=" widget-item ">
+                                        <a href=" # ">
+                                            <span class=" fa-stack fa-lg ">
+                                                <i class=" fa fa-circle-thin fa-stack-2x "></i>
+                                                <i class=" fa fa-angle-right fa-stack-1x "></i>
+                                            </span> Căn hộ
+                                            <div class=" counter ">(21.246)</div>
+                                        </a>
+                                    </li>
+                                    <li class=" widget-item ">
+                                        <a href=" # ">
+                                            <span class=" fa-stack fa-lg ">
+                                                <i class=" fa fa-circle-thin fa-stack-2x "></i>
+                                                <i class=" fa fa-angle-right fa-stack-1x "></i>
+                                            </span> Phòng trọ
+                                            <div class=" counter ">(5.763)</div>
+                                        </a>
+                                    </li>
+                                    <li class=" widget-item ">
+                                        <a href=" # ">
+                                            <span class=" fa-stack fa-lg ">
+                                                <i class=" fa fa-circle-thin fa-stack-2x "></i>
+                                                <i class=" fa fa-angle-right fa-stack-1x "></i>
+                                            </span> Văn phòng
+                                            <div class=" counter ">(1.611)</div>
+                                        </a>
+                                    </li>
+                                    <li class=" widget-item ">
+                                        <a href=" # ">
+                                            <span class=" fa-stack fa-lg ">
+                                                <i class=" fa fa-circle-thin fa-stack-2x "></i>
+                                                <i class=" fa fa-angle-right fa-stack-1x "></i>
+                                            </span> Mặt bằng
+                                            <div class=" counter ">(8.654)</div>
+                                        </a>
+                                    </li>
+                                    <li class=" widget-item ">
+                                        <a href=" # ">
+                                            <span class=" fa-stack fa-lg ">
+                                                <i class=" fa fa-circle-thin fa-stack-2x "></i>
+                                                <i class=" fa fa-angle-right fa-stack-1x "></i>
+                                            </span> Đất
+                                            <div class=" counter ">(3.544)</div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class=" widget ">
+                                <div class=" widget-title ">
+                                    Nhà đất bán tại các khu vực
+                                </div>
+                                <ul class=" widget-list ">
+                                    <li class=" widget-item ">
+                                        <a href=" # ">
+                                            <span class=" fa-stack fa-lg ">
+                                                <i class=" fa fa-circle-thin fa-stack-2x "></i>
+                                                <i class=" fa fa-angle-right fa-stack-1x "></i>
+                                            </span> Quận 1
+                                            <div class=" counter ">(1.412)</div>
+                                        </a>
+                                    </li>
+                                    <li class=" widget-item ">
+                                        <a href=" # ">
+                                            <span class=" fa-stack fa-lg ">
+                                                <i class=" fa fa-circle-thin fa-stack-2x "></i>
+                                                <i class=" fa fa-angle-right fa-stack-1x "></i>
+                                            </span> Quận 2
+                                            <div class=" counter ">(215)</div>
+                                        </a>
+                                    </li>
+                                    <li class=" widget-item ">
+                                        <a href=" # ">
+                                            <span class=" fa-stack fa-lg ">
+                                                <i class=" fa fa-circle-thin fa-stack-2x "></i>
+                                                <i class=" fa fa-angle-right fa-stack-1x "></i>
+                                            </span> Quận 3
+                                            <div class=" counter ">(541)</div>
+                                        </a>
+                                    </li>
+                                    <li class=" widget-item ">
+                                        <a href=" # ">
+                                            <span class=" fa-stack fa-lg ">
+                                                <i class=" fa fa-circle-thin fa-stack-2x "></i>
+                                                <i class=" fa fa-angle-right fa-stack-1x "></i>
+                                            </span> Quận 4
+                                            <div class=" counter ">(412)</div>
+                                        </a>
+                                    </li>
+                                    <li class=" widget-item ">
+                                        <a href=" # ">
+                                            <span class=" fa-stack fa-lg ">
+                                                <i class=" fa fa-circle-thin fa-stack-2x "></i>
+                                                <i class=" fa fa-angle-right fa-stack-1x "></i>
+                                            </span> Quận 5
+                                            <div class=" counter ">(251)</div>
+                                        </a>
+                                    </li>
+                                    <li class=" widget-item ">
+                                        <a href=" # ">
+                                            <span class=" fa-stack fa-lg ">
+                                                <i class=" fa fa-circle-thin fa-stack-2x "></i>
+                                                <i class=" fa fa-angle-right fa-stack-1x "></i>
+                                            </span> Quận 6
+                                            <div class=" counter ">(221)</div>
+                                        </a>
+                                    </li>
+                                    <li class=" widget-item ">
+                                        <a href=" # ">
+                                            <span class=" fa-stack fa-lg ">
+                                                <i class=" fa fa-circle-thin fa-stack-2x "></i>
+                                                <i class=" fa fa-angle-right fa-stack-1x "></i>
+                                            </span> Quận 7
+                                            <div class=" counter ">(152)</div>
+                                        </a>
+                                    </li>
+                                    <li class=" widget-item ">
+                                        <a href=" # ">
+                                            <span class=" fa-stack fa-lg ">
+                                                <i class=" fa fa-circle-thin fa-stack-2x "></i>
+                                                <i class=" fa fa-angle-right fa-stack-1x "></i>
+                                            </span> Quận 8
+                                            <div class=" counter ">(1.535)</div>
+                                        </a>
+                                    </li>
+                                    <li class=" widget-item ">
+                                        <a href=" # ">
+                                            <span class=" fa-stack fa-lg ">
+                                                <i class=" fa fa-circle-thin fa-stack-2x "></i>
+                                                <i class=" fa fa-angle-right fa-stack-1x "></i>
+                                            </span> Quận 9
+                                            <div class=" counter ">(835)</div>
+                                        </a>
+                                    </li>
+                                    <li class=" widget-item ">
+                                        <a href=" # ">
+                                            <span class=" fa-stack fa-lg ">
+                                                <i class=" fa fa-circle-thin fa-stack-2x "></i>
+                                                <i class=" fa fa-angle-right fa-stack-1x "></i>
+                                            </span> Quận 10
+                                            <div class=" counter ">(235)</div>
+                                        </a>
+                                    </li>
+                                    <li class=" widget-item ">
+                                        <a href=" # ">
+                                            <span class=" fa-stack fa-lg ">
+                                                <i class=" fa fa-circle-thin fa-stack-2x "></i>
+                                                <i class=" fa fa-angle-right fa-stack-1x "></i>
+                                            </span> Quận 11
+                                            <div class=" counter ">(561)</div>
+                                        </a>
+                                    </li>
+                                    <li class=" widget-item ">
+                                        <a href=" # ">
+                                            <span class=" fa-stack fa-lg ">
+                                                <i class=" fa fa-circle-thin fa-stack-2x "></i>
+                                                <i class=" fa fa-angle-right fa-stack-1x "></i>
+                                            </span> Quận 12
+                                            <div class=" counter ">(128)</div>
+                                        </a>
+                                    </li>
+                                    <li class=" widget-item ">
+                                        <a href=" # ">
+                                            <span class=" fa-stack fa-lg ">
+                                                <i class=" fa fa-circle-thin fa-stack-2x "></i>
+                                                <i class=" fa fa-angle-right fa-stack-1x "></i>
+                                            </span> Quận Bình Tân
+                                            <div class=" counter ">(423))</div>
+                                        </a>
+                                    </li>
+                                    <li class=" widget-item ">
+                                        <a href=" # ">
+                                            <span class=" fa-stack fa-lg ">
+                                                <i class=" fa fa-circle-thin fa-stack-2x "></i>
+                                                <i class=" fa fa-angle-right fa-stack-1x "></i>
+                                            </span> Quận Bình Thạnh
+                                            <div class=" counter ">(263)</div>
+                                        </a>
+                                    </li>
+                                    <li class=" widget-item ">
+                                        <a href=" # ">
+                                            <span class=" fa-stack fa-lg ">
+                                                <i class=" fa fa-circle-thin fa-stack-2x "></i>
+                                                <i class=" fa fa-angle-right fa-stack-1x "></i>
+                                            </span> Quận Gò Vấp
+                                            <div class=" counter ">(351)</div>
+                                        </a>
+                                    </li>
+                                    <li class=" widget-item ">
+                                        <a href=" # ">
+                                            <span class=" fa-stack fa-lg ">
+                                                <i class=" fa fa-circle-thin fa-stack-2x "></i>
+                                                <i class=" fa fa-angle-right fa-stack-1x "></i>
+                                            </span> Quận Phú Nhuận
+                                            <div class=" counter ">(215)</div>
+                                        </a>
+                                    </li>
+                                    <li class=" widget-item ">
+                                        <a href=" # ">
+                                            <span class=" fa-stack fa-lg ">
+                                                <i class=" fa fa-circle-thin fa-stack-2x "></i>
+                                                <i class=" fa fa-angle-right fa-stack-1x "></i>
+                                            </span> Quận Tân Bình
+                                            <div class=" counter ">(157)</div>
+                                        </a>
+                                    </li>
+                                    <li class=" widget-item ">
+                                        <a href=" # ">
+                                            <span class=" fa-stack fa-lg ">
+                                                <i class=" fa fa-circle-thin fa-stack-2x "></i>
+                                                <i class=" fa fa-angle-right fa-stack-1x "></i>
+                                            </span> Quận Tân Phú
+                                            <div class=" counter ">(243)</div>
+                                        </a>
+                                    </li>
+                                    <li class=" widget-item ">
+                                        <a href=" # ">
+                                            <span class=" fa-stack fa-lg ">
+                                                <i class=" fa fa-circle-thin fa-stack-2x "></i>
+                                                <i class=" fa fa-angle-right fa-stack-1x "></i>
+                                            </span> Quận Thủ Đức
+                                            <div class=" counter ">(335)</div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class=" container ">
+            <div class=" content-wrapper ">
+                <div class=" row ">
+                    <div class=" col c-3 ">
+                        <div class=" footer-wrapper ">
+                            <div class=" footer-title ">
+                                Về Find Place
+                            </div>
+                            <div class=" footer-content ">
+                                <ul>
+                                    <li>
+                                        <i class=" fa fa-phone "></i>(012)3456789
+                                        </li>
+                                    <li>
+                                        <i class=" fa fa-envelope-o "></i>findplace@fp.vn
+                                        </li>
+                                    <li><a href=" # ">
+                                        Giới thiệu về FindPlace
+                                    </a></li>
+                                    <li><a href=" # ">
+                                        Tuyển dụng
+                                    </a></li>
+                                    <li><a href=" # ">
+                                        Điều khoản FindPlace
+                                    </a></li>
+                                    <li><a href=" # ">
+                                    Chích sách bảo mật
+                                    </a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                        <div class=" col c-3 ">
+                            <div class=" footer-wrapper ">
+                                <div class=" footer-title ">
+                                    Chăm sóc khách hàng
+                                </div>
+                                <div class=" footer-content ">
+                                    <ul>
+                                        <li><a href=" # ">
+                                                Trung tâm trợ giúp
+                                            </a></li>
+                                        <li><a href=" # ">
+                                                Hướng dẫn đăng tin
+                                            </a></li>
+                                        <li><a href=" # ">
+                                                Hướng dẫn thanh toán
+                                            </a></li>
+                                        <li><a href=" # ">
+                                                Chăm sóc khách hàng
+                                            </a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" col c-3 ">
+                            <div class=" footer-wrapper ">
+                                <div class=" footer-title ">
+                                    Dịch vụ - Quảng cáo
+                                </div>
+                                <div class=" footer-content ">
+                                    <ul>
+                                        <li><a href=" # ">
+                                    Chương trình khuyến mãi
+                                    </a></li>
+                                <li><a href=" # ">
+                                        Phí thành viên
+                                    </a></li>
+                                <li><a href=" # ">
+                                        Phí dịch vụ TOP/UP
+                                    </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col c-3 ">
+                    <div class=" footer-wrapper ">
+                        <div class=" footer-title ">
+                            Theo dõi chúng tôi trên
+                        </div>
+                        <div class=" footer-content ">
+                            <ul>
+                                <li><a href=" # ">
+                                        <i class=" fa fa-facebook-official "></i>
+                                        Facebook
+                                    </a></li>
+                                <li><a href=" # ">
+                                        <i class=" fa fa-twitter "></i>
+                                        Twitter
+                                    </a></li>
+                                <li><a href=" # ">
+                                        <i class=" fa fa-instagram "></i>
+                                        Instagram
+                                    </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" copyright ">
+                © Copyright 2022 FindPlace | All rights reserved
+            </div>
+        </div>
+    </div>
+    </footer>
+
+
+    <!-- Script -->
+    <script src=" https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js "></script>
+
+    <script src=" ./assets/js/index.js "></script>
+</body>
+
+</html>

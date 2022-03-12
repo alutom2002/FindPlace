@@ -1,0 +1,43 @@
+/*  PC low resolution */
+
+@media (max-width: 1432px) {
+    .container {
+        width: 1200px;
+    }
+}
+
+
+/*  Mobile & Tablet */
+
+@media (max-width: 1227px) {
+    .container {
+        width: 1000px;
+    }
+}
+
+
+/* Tablet */
+
+@media (min-width: 740px) and (max-width: 1023px) {
+    .container {
+        width: 720px;
+    }
+}
+
+
+/* Mobile Medium*/
+
+@media (max-width: 740px) {
+    .container {
+        width: 520px;
+    }
+}
+
+
+/* Mobile Small */
+
+@media (max-width: 540px) {
+    .container {
+        width: 370px;
+    }
+}
